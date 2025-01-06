@@ -31,7 +31,7 @@ export async function authMiddleware(req: Request, res: Response, next: NextFunc
     if (req.headers.authorization && req.headers.authorization.startsWith("Bearer")) {
         token = req.headers.authorization.split(" ").at(1)
 
-    } else if (req.cookies.token) {
+    } else if (req.cookies) {
 
         token = req.cookies.token
 
