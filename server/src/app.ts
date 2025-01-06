@@ -12,7 +12,8 @@ async function main() {
 
     await ConnectMongoDb.connectDB({ url: envs.MONGO_URL, dbName: "finance-app" })
 
-    const server = new Server({ port: 3000 })
+    const PORT = 3000
+    const server = new Server({ port: PORT })
     server.setRoutes(Routes.routes)
 
     server.start()
