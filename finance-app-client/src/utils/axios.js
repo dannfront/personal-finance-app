@@ -8,7 +8,7 @@ const instanceAxios = axios.create({
 export async function loginAxios(body) {
     try {
         const data = await instanceAxios.post("auth/login", body)
-        console.log(data.data);
+
 
         return data
     } catch (error) {
@@ -62,11 +62,10 @@ export async function createBudget(body) {
 }
 
 export async function deleteBudget(id) {
-    console.log(id);
+
 
     try {
         const data = await instanceAxios.delete(`budgets/deleteBudget/${id}`)
-        console.log(data.status);
 
         if (data.status !== 200) {
             throw new Error("Error")

@@ -12,8 +12,6 @@ function ProtectedRoute({ children }) {
             try {
                 const res = await isAuthAxios()
 
-                console.log(res);
-
 
                 if (!res.data.isAuth || res === undefined) {
                     navigate("/login")

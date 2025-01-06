@@ -36,7 +36,6 @@ export async function authMiddleware(req: Request, res: Response, next: NextFunc
         token = req.cookies.token
 
     }
-    console.log(req.cookies);
 
     if (!token) {
         res.status(401).json({ error: "unauthorized" })

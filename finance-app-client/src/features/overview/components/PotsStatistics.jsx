@@ -3,7 +3,6 @@ import LinkSee from "../../../components/LInkSee"
 import { numberFormat } from "../../../utils/functions"
 
 function PotsStatistics({ pots, allPots }) {
-    console.log(allPots);
 
     const totalAmount = allPots.reduce((acc, pot) => acc + pot.total, 0)
 

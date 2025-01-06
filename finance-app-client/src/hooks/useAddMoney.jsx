@@ -8,7 +8,6 @@ function useAddMoney() {
 
     const mutation = useMutation({
         mutationFn: async ({ id, amount }) => {
-            console.log(id, amount);
 
             return addMoneyPots(id, amount)
         },

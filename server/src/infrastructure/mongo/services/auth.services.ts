@@ -39,10 +39,6 @@ export class AuthServices {
             const idBudgets = await this.budgetsServices.insertBudgets();
             const idPots = await this.servicesPots.insertPots();
 
-            console.log("idsTransactions:", idsTransactions);
-            console.log("idBudgets:", idBudgets);
-            console.log("idPots:", idPots);
-
             user.transactions.push(...idsTransactions);
 
             if (idBudgets !== undefined && idPots !== undefined) {

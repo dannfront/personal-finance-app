@@ -26,12 +26,10 @@ function AddNewPot({ handleCloseModal, data, current, type = "create" }) {
     function onSubmit(body) {
 
         if (type === "create") {
-            console.log("create")
             // mutation.mutate(data)
             mutationCreated.mutate({ ...body, target: +body.target })
             handleCloseModal()
         } else {
-            console.log("update")
 
             mutationUpdate.mutate({ id: data._id, body: { ...body, target: +body.target } })
 

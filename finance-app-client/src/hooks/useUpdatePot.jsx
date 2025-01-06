@@ -6,7 +6,6 @@ function useUpdatePot() {
     const queryClient = useQueryClient()
     const mutation = useMutation({
         mutationFn: ({ id, body }) => {
-            console.log(body);
 
             updatePot(id, body)
         },
