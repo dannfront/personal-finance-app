@@ -7,5 +7,6 @@ export const envs = {
     KEY_ACCES_AWS: env.get("KEY_ACCES_AWS").required().asString(),
     AWS_BUCKET_NAME: env.get("AWS_BUCKET_NAME").required().asString(),
     SECRET_KEY_JWT: env.get("SECRET_KEY_JWT").required().asString(),
-    ORIGIN_URL: env.get("ORIGIN_URL").required().asString()
+    ORIGIN_URL: env.get("ORIGIN_URL").required().asString(),
+    PORT: env.get("PORT").required().asInt()
 }
