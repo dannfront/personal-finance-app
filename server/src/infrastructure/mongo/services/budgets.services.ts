@@ -1,5 +1,5 @@
 import { Types } from "mongoose";
-import data from "../../../../data";
+import data from "../../../data";
 import { BudgetDto } from "../../../domain/dtos/budgets/budget.dto";
 import { UpdateBudgetDto } from "../../../domain/dtos/budgets/updateBudget.dto";
 import { PaginationDto } from "../../../domain/dtos/pagination/pagination.dto";

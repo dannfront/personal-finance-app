@@ -1,5 +1,5 @@
 import { Types } from "mongoose";
-import data from "../../../../data";
+import data from "../../../data";
 import { PaginationDto } from "../../../domain/dtos/pagination/pagination.dto";
 import { AddandWithdrawDto } from "../../../domain/dtos/pots/add-withdraw.dto";
 import { CreateDto } from "../../../domain/dtos/pots/create.dto";
