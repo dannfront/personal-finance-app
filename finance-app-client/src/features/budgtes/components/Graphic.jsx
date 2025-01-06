@@ -2,6 +2,7 @@ import { Cell, Pie, PieChart } from "recharts"
 import { numberFormat } from "../../../utils/functions";
 
 function Graphic({ budgets, transactions }) {
+    console.log(budgets, transactions);
 
     const data = budgets.map(budgets => ({ name: budgets.category, value: budgets.maximum }))
     const COLORS = budgets.map(budget => budget.theme)

@@ -18,6 +18,7 @@ function Budgets() {
 
     const budgets = user.budgets
     const transactions = user.transactions
+    console.log(user);
 
     function hanndlerOpenModal() {
 
