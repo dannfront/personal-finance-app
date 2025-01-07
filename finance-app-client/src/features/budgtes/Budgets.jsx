@@ -1,6 +1,6 @@
 
 import { data as dataApp } from "../../../data";
-import BudgetItemList from "./BudgetItemList";
+import BudgetItemList from "./components/BudgetItemList";
 import { Suspense, useState } from "react";
 import ModalPortal from "../../components/ModalPortal";
 import AddNewBudget from "./components/AddNewBudget";
