@@ -11,11 +11,14 @@ function ItemTransactions({ transaction }) {
 
     }
 
+    console.log(avatar.slice(1));
+
+
     return (
         <li className="p-1 md:p-2">
             <section className="grid-item__transaction mt-2">
                 <figure className="w-[40px]">
-                    <img className="rounded-full" src={`src/${avatar.slice(1)}`} alt="avatar" />
+                    <img className="rounded-full" src={`${avatar.slice(1)}`} alt="avatar" />
                 </figure>
                 <div>
                     <h3 className="font-semibold">{name}</h3>
