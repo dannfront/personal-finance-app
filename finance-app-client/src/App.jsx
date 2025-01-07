@@ -1,7 +1,6 @@
 import { RouterProvider } from 'react-router-dom'
-import routes from './router/routes'
+import routes from './router/Routes'
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query"
-import { data } from 'autoprefixer'
 import { ReactQueryDevtools } from '@tanstack/react-query-devtools'
 
 const queryClient = new QueryClient({
