@@ -9,7 +9,7 @@ function BudgetTransactionItemList({ transactions }) {
     return (
         <li className="flex justify-between items-center py-2">
             <div className="flex gap-3">
-                <img className=" size-8 rounded-full" src={`${urlBack}/static/${avatar.split("/").splice(2).join("/")}`} alt={name} />
+                <img className=" size-8 rounded-full" src={`${urlBack}/static/images/avatars${avatar.split("/").splice(2).join("/")}`} alt={name} />
                 <h4 className="font-bold text-gray-900">{name}</h4>
             </div>
             <div >
