@@ -1,6 +1,5 @@
-
 import HeaderPage from "../../components/HeaderPage";
-import Statistics from "./components/statistics";
+import Statistics from "./components/Statistics";
 import PotsStatistics from "./components/PotsStatistics";
 import useGetUserData from "../../hooks/useGetUserData";
 import TransactionsStatistics from "./components/TransactionsStatistics";
