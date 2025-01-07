@@ -2,14 +2,14 @@ function BudgetTransactionItemList({ transactions }) {
 
     const { name, amount, date, avatar } = transactions
 
+    // console.log(import.meta.env.VITE_URL_BACKEND);
+
+    const urlBack = import.meta.env.VITE_URL_BACKEND.slice(0, -5)
 
     return (
         <li className="flex justify-between items-center py-2">
             <div className="flex gap-3">
-                <img className=" size-8 rounded-full" src={`http://localhost:3000/static/${avatar.split("/").splice(2).join("/")
-
-
-                    }`} alt={name} />
+                <img className=" size-8 rounded-full" src={`${urlBack}/static/${avatar.split("/").splice(2).join("/")}`} alt={name} />
                 <h4 className="font-bold text-gray-900">{name}</h4>
             </div>
             <div >

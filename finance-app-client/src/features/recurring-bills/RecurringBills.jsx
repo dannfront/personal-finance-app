@@ -9,7 +9,7 @@ function RecurringBills() {
     const { data: { user } } = useGetUserData()
     const [searchByName, setSearchByName] = useState("")
     const [sort, setSort] = useState("")
-
+    const urlBack = import.meta.env.VITE_URL_BACKEND.slice(0, -5)
     const test = user.transactions.filter(transaction => transaction.recurring).reduce((acc, transaction) => {
         if (!acc[transaction.name]) {
             acc[transaction.name] = transaction;
@@ -95,12 +95,13 @@ function RecurringBills() {
                             {
                                 filterTransaction.map(transaction => {
                                     const image = transaction.avatar.split("/").slice(2).join("/")
+                                    // console.log(`$ur`);
 
                                     return <li key={transaction._id} className="h-fit flex items-center justify-between p-3" >
                                         <div className="flex items-center gap-2">
 
                                             <figure className="size-[32px]">
-                                                <img className="rounded-full" src={`http://localhost:3000/static/${image}`} alt="avatar" />
+                                                <img className="rounded-full" src={`${urlBack}/static/${image}`} alt="avatar" />
                                             </figure>
                                             <h3>{transaction.name}</h3>
                                         </div>

@@ -31,7 +31,6 @@ export async function registerAxios(body) {
 export async function isAuthAxios() {
     try {
         const data = await instanceAxios.get("auth/isAuth")
-        console.log(data);
 
         return data
 
