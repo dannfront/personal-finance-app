@@ -10,8 +10,8 @@ function Category({ category, setCategory }) {
 
             <button className="relative md:flex md:justify-evenly md:gap-3 md:items-center md:border md:border-Beige-500 md:rounded-lg md:h-[45px] md:p-2" onClick={() => setOpenCategory(!openCategory)}>
                 <span className="hidden  md:block">All Transactions</span>
-                <img className="hidden md:block" src="src/assets/images/icon-caret-down.svg" alt="down" />
-                <img className="md:hidden" src="src/assets/images/icon-filter-mobile.svg" alt="icon-filter" />
+                <img className="hidden md:block" src="images/icon-caret-down.svg" alt="down" />
+                <img className="md:hidden" src="images/icon-filter-mobile.svg" alt="icon-filter" />
 
                 {openCategory && <MenuCategory category={category} setCategory={setCategory} />}
             </button>

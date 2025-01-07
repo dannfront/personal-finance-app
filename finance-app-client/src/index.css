@@ -107,7 +107,7 @@ body {
 }
 
 .icon__search {
-  background-image: url('assets/images/icon-search.svg');
+  background-image: url('images/icon-search.svg');
   background-repeat: no-repeat;
   background-position: right 1rem center;
 }

@@ -73,7 +73,7 @@ function RecurringBills() {
                         <article className="bg-Grey-900 rounded-lg p-5 md:w-[332px] lg:w-[300px]">
                             <div className="flex items-center gap-10 md:flex-col md:gap-5 md:items-start">
                                 <figure className="w-[40px] md:mt-5">
-                                    <img src="src/assets/images/icon-recurring-bills.svg" alt="icon-recurring-bills" />
+                                    <img src="images/icon-recurring-bills.svg" alt="icon-recurring-bills" />
                                 </figure>
                                 <div>
                                     <h2 className="text-white text-sm">Total Bills</h2>

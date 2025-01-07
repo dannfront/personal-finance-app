@@ -17,7 +17,7 @@ function PotsStatistics({ pots, allPots }) {
 
                 <article className="w-[300px] m-w-[90%] md:w-[247px] bg-Beige-100 rounded-lg flex items-center gap-5 mx-auto md:m-0 p-3 my-2">
                     <figure>
-                        <img src="src/assets/images/icon-pot.svg" alt="icon-pot" />
+                        <img src="images/icon-pot.svg" alt="icon-pot" />
                     </figure>
                     <div>
 

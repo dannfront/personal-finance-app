@@ -35,7 +35,7 @@ function BudgetItemList({ budget, data, openMenuID, setOpenMenuID, id }) {
                     </div>
 
                     <Button onClick={() => closeAndOpenMenu(id)}>
-                        <img src="src/assets/images/icon-ellipsis.svg" alt="elipsis" />
+                        <img src="images/icon-ellipsis.svg" alt="elipsis" />
                     </Button>
 
                     {(id === openMenuID) && <div className="absolute top-6 right-0 bg-white rounded-lg shadow-[0px_10px_18px_0px_rgba(0,_0,_0,_0.1)] p-5 md:p-2">

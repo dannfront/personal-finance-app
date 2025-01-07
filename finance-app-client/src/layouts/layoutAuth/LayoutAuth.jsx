@@ -9,7 +9,7 @@ function LayoutAuth() {
                 <IlustratorAuth />
 
                 <div className="h-[69px] w-full bg-Grey-900 content-center rounded-b-lg lg:hidden">
-                    <img className="mx-auto" src="src/assets/images/logo-large.svg" alt="logo" />
+                    <img className="mx-auto" src="images/logo-large.svg" alt="logo" />
                 </div>
 
                 <div className="flex items-center">

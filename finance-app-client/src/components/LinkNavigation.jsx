@@ -4,7 +4,7 @@ function LinkNavigation({ titleLink = "", isMinimize = false }) {
 
     const recurringBills = titleLink === "Recurring Bills" ? titleLink.split(" ").join("-").toLowerCase() : undefined
 
-    const urlImages = `src/assets/images/icon-nav-${recurringBills ?? titleLink.toLowerCase()}.svg`
+    const urlImages = `images/icon-nav-${recurringBills ?? titleLink.toLowerCase()}.svg`
     const firstLetterUpperCase = titleLink.at(0).toUpperCase() + titleLink.slice(1)
 
     return (

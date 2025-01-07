@@ -57,7 +57,7 @@ function ListItemPots({ pot, id, openModalMenu, setOpenModalMenu }) {
                     </div>
                     <div className="size-5">
                         <Button onClick={() => closeAndOpenMenu(id)} className="size-[100%]">
-                            <img src="src/assets/images/icon-ellipsis.svg" alt="menu" />
+                            <img src="images/icon-ellipsis.svg" alt="menu" />
                         </Button>
                     </div>
                     {id === openModalMenu && <div className="absolute top-6 right-0 bg-white rounded-lg shadow-[0px_10px_18px_0px_rgba(0,_0,_0,_0.1)] p-5 md:p-2">

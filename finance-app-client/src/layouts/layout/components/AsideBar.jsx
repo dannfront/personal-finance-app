@@ -28,9 +28,9 @@ function AsideBar() {
                     <div className={`hidden pl-4 lg:block lg:mt-2 ${isMinimize ? "lg:flex lg:items-center lg:justify-center lg:w-full lg:p-0" : ""}`} >
                         {
                             isMinimize ?
-                                <img src="src/assets/images/logo-small.svg" alt="logo" />
+                                <img src="images/logo-small.svg" alt="logo" />
                                 :
-                                <img src="src/assets/images/logo-large.svg" alt="logo" />
+                                <img src="images/logo-large.svg" alt="logo" />
                         }
                     </div>
                 </div>
@@ -48,10 +48,10 @@ function AsideBar() {
                     <div className="lg:flex lg:gap-2 lg:items-center">
                         {
                             isMinimize ?
-                                <img className="w-full" src="src/assets/images/icon-maximize-menu.svg" alt="icon-maximize" /> :
+                                <img className="w-full" src="images/icon-maximize-menu.svg" alt="icon-maximize" /> :
                                 <>
 
-                                    <img src="src/assets/images/icon-minimize-menu.svg" alt="overview" className="hidden lg:block" />
+                                    <img src="images/icon-minimize-menu.svg" alt="overview" className="hidden lg:block" />
 
                                     <span>
                                         Minimize Menu

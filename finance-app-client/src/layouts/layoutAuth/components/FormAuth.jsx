@@ -118,7 +118,7 @@ function FormAuth({ isRegister }) {
                         })} />
 
                         <button type="button" id="button" className="absolute right-2 top-4">
-                            <img src="src/assets/images/icon-show-password.svg" alt="show-password" />
+                            <img src="images/icon-show-password.svg" alt="show-password" />
                         </button>
                         {errors.password && <p className="text-Red text-sm">{errors.password.message}</p>}
 

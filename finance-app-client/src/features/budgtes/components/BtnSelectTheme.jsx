@@ -4,7 +4,7 @@ function BtnSelectTheme({ onChange }) {
     return (
         <BtnSelect>
             <span>Entertainment</span>
-            <img src="src/assets/images/icon-caret-down.svg" alt="caret-down" />
+            <img src="images/icon-caret-down.svg" alt="caret-down" />
         </BtnSelect>
     )
 }

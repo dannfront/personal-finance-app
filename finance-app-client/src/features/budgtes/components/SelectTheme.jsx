@@ -11,7 +11,7 @@ function SelectTheme({ theme, setTheme, setNameTheme }) {
         <div className="relative">
             <BtnSelect onClick={handleIsOpen} >
                 <span>{theme}</span>
-                <img src="src/assets/images/icon-caret-down.svg" alt="caret-down" />
+                <img src="images/icon-caret-down.svg" alt="caret-down" />
             </BtnSelect>
             {isOpen && <ListThemes setTheme={setTheme} setNameTheme={setNameTheme} />}
         </div>
