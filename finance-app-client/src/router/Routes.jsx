@@ -3,7 +3,7 @@ import Layout from "../layouts/layout/Layout";
 import Overview from "../features/overview/Overview";
 import Budgets from "../features/budgtes/Budgets";
 import Login from "../features/login/login";
-import Register from "../features/register/register";
+import Register from "../features/register/Register";
 import Pots from "../features/pots/Pots";
 import Transactions from "../features/transactions/Transactions";
 import RecurringBills from "../features/recurring-bills/RecurringBills";
