@@ -123,7 +123,7 @@ function Transactions() {
                 <section className="mt-5 flex justify-between">
 
                     <Button className="border border-Beige-500 w-[50px] rounded-xl p-3 flex justify-center transition-colors hover:bg-Beige-500" onClick={handdlerPrevPage}>
-                        <img src="s/images/icon-caret-left.svg" alt="icon" />
+                        <img src="images/icon-caret-left.svg" alt="icon" />
                     </Button>
 
                     <PageNumber arrayLength={totalPages} pageNumber={nextPage} />
