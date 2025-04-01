@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github](https://github.com/dannfront/invoice-app)
-- Live Site URL: [Live](https://invoice-app-dannfront.netlify.app/login)
+- Solution URL: [Github](https://github.com/dannfront/personal-finance)
+- Live Site URL: [Live](https://personal-finance-app-dannfront.netlify.app/login)
 
 ### Built with
 
